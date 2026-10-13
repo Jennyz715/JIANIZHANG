@@ -1,0 +1,226 @@
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #151313;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+    background-image: url('banner2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Banner上的大标题 */
+.hero h1 {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    margin: 0;
+    font-family: Impact, 'Arial Narrow', sans-serif;
+    font-size: clamp(90px, 12vw, 200px);
+    font-weight: 900;
+    color: #101D17;
+    line-height: 0.85;
+    letter-spacing: .01em;
+    transform: scaleX(.82);
+    transform-origin: left bottom;
+}
+
+/* ZHANG比JENNY稍微靠右 */
+.hero h1 span {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.about {
+    padding: 42px 5% 56px;
+    text-align: center;
+}
+
+.about h2 {
+    margin: 0 0 22px;
+    font-family: Impact, sans-serif;
+    font-size: clamp(40px, 4vw, 60px);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -.035em;
+}
+
+.about p {
+    max-width: 830px;
+    margin: 0 auto;
+    font-size: clamp(15px, 1.65vw, 21px);
+    line-height: 1.55;
+    font-weight: 400;
+}
+
+.interests {
+    padding: 42px 5% 56px;
+    text-align: center;
+}
+
+.interests h2 {
+    margin: 0 0 22px;
+    font-family: Impact, sans-serif;
+    font-size: clamp(40px, 4vw, 60px);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -.035em;
+}
+
+
+.interest-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+    max-width: 1350px;
+    margin: 28px auto 0;
+}
+
+.interest-card {
+    padding: 0 24px;
+}
+
+
+/* 每张卡片上方的图片区域 */
+.interest-art {
+    height: clamp(140px, 17vw, 230px);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* 图片本身 */
+.interest-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* MUSIC方块 */
+.music {
+    background: #ddd9d3;
+    color: #f6f3ed;
+}
+
+/* PHOTOGRAPHY方块 */
+.photo {
+    background: #d7d4ce;
+    color: #565452;
+}
+
+/* FASHION方块 */
+.fashion {
+    background: #c4c9c7;
+    color: #242727;
+}
+
+/* TRAVEL方块 */
+.travel {
+    background: #a8b7c3;
+    color: #f6f3ed;
+}
+
+/* 每张卡片的标题 */
+.interest-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* 每张卡片的介绍文字 */
+.interest-card p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* ==============================
+   5. FOOTER
+   HTML: <footer>
+   ============================== */
+
+footer {
+    padding: 18px 5% 26px;
+    font-size: 11px;
+    color: #777;
+}
+
+
+/* ==============================
+   5. WEEKLY REFLECTIONS
+   ============================== */
+
+/* 整个Reflection区域 */
+.reflections {
+    padding: 42px 5% 56px;
+    text-align: center;
+}
+
+/* WEEKLY REFLECTIONS大标题 */
+.reflections h2 {
+    margin: 0 0 22px;
+    font-family: Impact, sans-serif;
+    font-size: clamp(40px, 4vw, 60px);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -.035em;
+}
+
+/* 图片和文字的整体布局 */
+.reflection-entry {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1350px;
+    margin: 30px auto 0;
+    padding: 0 24px;
+    text-align: left;
+}
+
+/* 左边的小图片 */
+.reflection-entry img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* 右边的文字区域 */
+.reflection-text {
+    flex: 1;
+}
+
+/* WEEK 01小标题 */
+.reflection-text h3 {
+    margin: 0 0 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Reflection正文 */
+.reflection-text p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+
+
+
+
+
