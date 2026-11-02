@@ -221,6 +221,79 @@ footer {
 
 
 
+/* WEB SCRAPING SECTION */
+
+.web-scraping {
+    padding: 42px 5% 56px;
+    text-align: center;
+}
+
+.web-scraping h2 {
+    margin: 0 0 22px;
+    font-family: Impact, sans-serif;
+    font-size: clamp(40px, 4vw, 60px);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -.035em;
+}
+
+/* DESCRIPTION */
+
+.scraping-description {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/* IMAGE */
+
+.scraping-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.scraping-image img {
+    display: block;
+    width: 65%;
+    max-width: 750px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* CAPTION */
+
+.scraping-caption {
+    font-size: 13px;
+    color: #777;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+    .web-scraping {
+        padding: 42px 20px 56px;
+    }
+
+    .web-scraping h2 {
+        font-size: 28px;
+    }
+
+    .scraping-description {
+        font-size: 14px;
+        white-space: normal;
+    }
+
+    .scraping-image img {
+        width: 100%;
+    }
+}
+
+
 
 
 
