@@ -294,6 +294,19 @@ footer {
 }
 
 
+/* DATA VISUALIZATION & ALGORITHMIC IDENTITY */
 
+#data-visualization .scraping-image,
+#algorithmic-identity .scraping-image {
+    margin-top: 30px;
+}
 
+#algorithmic-identity .scraping-caption {
+    margin-bottom: 30px;
+}
 
+#algorithmic-identity h2 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
